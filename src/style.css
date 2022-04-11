@@ -1,0 +1,218 @@
+/* Chuyển trang mượt mà hơn */
+body{
+    scroll-behavior: smooth;
+}
+
+li.nav-item.active {
+    padding-right: 20px;
+}
+img{
+    width: 100%;
+}
+h3.text-center.justify-content-center{
+    position: absolute;
+    color: white;
+    top: 222px;
+    right: 280px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 90px;
+    animation-name: animationtest;
+    animation-duration: 3s;
+}
+p.line{
+    animation-name: animationtest;
+    animation-duration: 3s;
+}
+p.line{
+    position: absolute;
+    color: white;
+    top: 350px;
+    right: 472px;
+    font-size: 27px;
+}
+h2.title {
+    font-family: revert;
+}
+@media  screen and (max-width: 1350px) {
+    div.job{
+        width: 80%;
+    }
+    
+    p.line{
+        display: none !important;
+    }
+    h3.text-center.justify-content-center{
+        display: none !important;
+    }
+    div.date{
+        display: none !important;
+    }
+    div.left-information{
+        margin-bottom: 30px;
+    }
+    div.Huan{
+        margin-top: 50px;
+    }
+}
+@media  NOT screen and (max-width: 1350px){
+    h4.date-job{
+        display: none;
+    };
+
+}
+h4.date-job{
+    color: #228B22;
+}
+.job-fe.aos-init.aos-animate {
+    margin-bottom: 52px;
+}
+div.personal{
+    width: 60%;
+}
+div.icon{
+    display: flex;
+    justify-content: space-around;
+}
+div.icon-border{
+    box-shadow: inset 0 0 0 0 black;
+    transition: ease-out 0.4s;
+}
+div.icon-border:hover{
+    box-shadow: inset 200px 0 0 0 black;
+    cursor: pointer;
+    color: white;
+
+}
+
+p.icon {
+    font-size: 22px;
+    font-family: monospace;
+}
+p.icon:hover{
+    font-size: 20px;
+}
+div.icon-border{
+    background-color: darkgray;
+    width: 22%;display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 0px 11px 0px;
+    border-radius: 32%;
+}
+
+div.work-experience{
+    margin-top: 30px;
+}
+div.center{
+    display: flex;
+}   
+div.date{
+    border-right: 1px solid gray;
+}
+h4.date{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid gray;
+    color: #228B22;
+}
+p.graphic{
+    display: flex;
+    justify-content: flex-end;
+}
+p.frontpager{
+    font-weight: 700;
+    font-style: italic;
+}
+p.SGD{
+    display: flex;
+    justify-content: flex-end;
+}
+div.february{
+    margin-top: 170px;
+}
+
+
+.section-title {
+    margin-bottom: 60px;
+    position: relative;
+    text-align: center;
+}
+.section-title h4{
+    border: 2px solid #07cb79;
+    background: #fff none repeat scroll 0 0;
+    color: #363636;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+.section-title:before {
+    border-top: 1px solid #b7b7b7;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+div.pg{
+    margin-top: 13px;
+}
+div.footer{
+    margin-top: 30px;
+}
+div.ct{
+    display: flex;
+    align-items: baseline;
+}
+p.contact{
+    display: block;
+
+}
+p.pg{
+    font-size: 15px;
+    font-family: cursive;
+}
+p.pg:hover{
+    color: #b7b7b7;
+}
+div.progress-bar:hover{
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 1rem 1rem;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+div.contactP{
+    display: flex;
+}
+div.Huan{
+    position: relative;
+    padding: 0.8em 1.1em;
+    border: 1px solid #dedede;
+    cursor: context-menu;
+    text-align: center;
+}
+img.huan{
+    display: block;
+    margin: -60px auto 16px auto;
+    width: auto;
+    max-height: 62px;
+    border-radius: 100%;
+    border: 1px solid #f1f1f1;
+    
+}
+@keyframes animationtest{
+    0%{
+        opacity: 0;
+        transform: translate(0, -100px);
+    }
+    80%{
+        transform: translate(0, -20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}

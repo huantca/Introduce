@@ -1,0 +1,13 @@
+
+li.nav-item.active {
+    padding-right: 20px;
+}
+img{
+    width: 100%;
+}
+h3{
+    position: absolute;
+    color: bisque;
+    top: 321px;
+    right: 624px;
+}
